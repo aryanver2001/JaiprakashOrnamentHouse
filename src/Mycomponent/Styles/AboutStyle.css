@@ -1,0 +1,21 @@
+@media screen and (max-width: 665px) {
+    .p-mid{
+        margin: 0 40px !important;
+    }
+}   
+
+.bg-about{
+    background: rgb(234 203 209);
+    padding-bottom: 30px;
+}
+
+.p-mid{
+    margin: 0 100px;
+    padding-bottom: 30px;
+}
+
+.card-about {
+    margin: 8px;
+    width: 300px;
+    height: 300px
+}
