@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { Link } from "react-router-dom";
-import "../Styles/FooterStyle.css"
-import shoplogo from "../Images/Shop-logo.png"
+import "../Styles/FooterStyle.css";
+import shoplogo from "../Images/Shop-logo.png";
 
 export default function footer() {
     return (

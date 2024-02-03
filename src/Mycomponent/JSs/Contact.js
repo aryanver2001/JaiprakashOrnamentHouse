@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Hero from "./Hero";
-import "../Styles/ContactStyle.css"
-import linedesign from "../Images/line-design.png"
-
-
+import "../Styles/ContactStyle.css";
+import linedesign from "../Images/line-design.png";
 
 export default function Contact() {
   return (
@@ -29,7 +27,7 @@ export default function Contact() {
               <input type="email" name='Email' className="form-control" autoComplete='off' placeholder="Email" required />
               <input type="number" name='Number' className="form-control" autoComplete='off' placeholder="Phone Number" required />
               <textarea name='Message' className="form-control" rows="3" placeholder='Message' required></textarea>
-              <button type="submit" class="btn">Send</button>
+              <button type="submit" className="btn">Send</button>
             </form>
 
           </div>
