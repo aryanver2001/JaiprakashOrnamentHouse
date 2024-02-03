@@ -1,0 +1,12 @@
+@media screen and (max-width:1035px) {
+
+    .about img {
+        width: 195px !important;
+    }
+
+    .phn-hide{
+        display: none !important;
+    }
+}
+
+

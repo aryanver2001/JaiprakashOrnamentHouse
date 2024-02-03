@@ -1,4 +1,9 @@
 import "./App.css";
+import "./Mycomponent/Styles/GlobalStyle.css"
+import "./Mycomponent/Styles/Responsive400.css"
+import "./Mycomponent/Styles/Responsive665.css"
+import "./Mycomponent/Styles/Responsive900.css"
+import "./Mycomponent/Styles/Responsive1035.css"
 import Navbar from "./Mycomponent/JSs/Navbar";
 import Footertail from "./Mycomponent/JSs/Footertail";
 import Home from "./Mycomponent/JSs/Home";

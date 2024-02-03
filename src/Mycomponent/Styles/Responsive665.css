@@ -1,0 +1,111 @@
+@media only screen and (max-width: 665px) {
+    .logo {
+        width: 80%;
+    }
+
+    .logo img {
+        width: 310px;
+    }
+
+    .hero-head {
+        padding: 20px;
+        font-size: 23px;
+    }
+
+    .carousel-item img {
+        height: 300px !important;
+    }
+
+    .heads {
+        font-size: 25px;
+    }
+
+    .contents {
+        font-size: 18px;
+        margin: 0 50px !important;
+
+    }
+
+    .card-m {
+        margin: 0 !important;
+    }
+
+    .card:hover {
+        transform: scale(1, 1) !important;
+    }
+
+    .bis-resp {
+        flex-direction: column !important;
+    }
+
+    .bis-logo,
+    .bis-cont {
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .bis-cont .contents {
+        margin: 0 !important;
+    }
+
+    .banner {
+        height: 200px !important;
+    }
+
+    .colw {
+        margin-bottom: 0 !important;
+        width: 100% !important;
+    }
+
+    .fhead {
+        margin-bottom: 20px !important;
+    }
+
+    .resp-d {
+        flex-direction: row !important;
+    }
+
+    .resp-contact {
+        padding: 0 !important;
+    }
+
+    .conts {
+        font-size: 16px !important;
+        margin: 7px !important;
+    }
+
+    .fa {
+        margin: 7px 20px !important;
+        color: #f7be04e9 !important;
+    }
+
+    .fa span {
+        display: none !important;
+    }
+
+    .row2 span {
+        font-size: 10px !important;
+    }
+
+    .p-mid {
+        margin: 0 40px !important;
+    }
+
+    .fd {
+        flex-direction: column !important;
+    }
+
+    .form-head {
+        font-size: 20px;
+    }
+
+    .form {
+        width: 350px;
+        margin: 0 !important;
+        margin-bottom: 50px !important;
+    }
+
+    .map {
+        margin-bottom: 40px !important;
+    }
+}

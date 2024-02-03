@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from "./Hero";
-import "../Styles/ContactStyle.css";
 import linedesign from "../Images/line-design.png";
 
 export default function Contact() {

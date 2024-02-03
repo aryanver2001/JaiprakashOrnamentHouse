@@ -1,5 +1,4 @@
 import React from "react";
-import {} from "../Styles/HeroStyle.css";
 import img1 from "../Images/Carousel_Images/crousel1.jpg";
 import img2 from "../Images/Carousel_Images/crousel2.jpg";
 import img3 from "../Images/Carousel_Images/crousel3.jpg";
@@ -8,10 +7,10 @@ import img3 from "../Images/Carousel_Images/crousel3.jpg";
 export default function Hero() {
   return (
     <div>
-      <header className="df hero-cont">
+      <header className="df col hero-cont">
         <span className="hero-head">JAIPRAKASH ORNAMENT HOUSE</span>
       </header>
-      
+
       {/* ---carousel--- */}
       <div id="carouselExampleAutoplaying" className="carousel slide hero-cont" data-bs-ride="carousel" data-bs-interval="2000">
         <div className="carousel-inner">

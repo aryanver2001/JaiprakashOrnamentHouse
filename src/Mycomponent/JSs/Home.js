@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "./Hero";
-import "../Styles/HomeStyle.css";
 import linedesign from "../Images/line-design.png";
 import earring from "../Images/ProductsImages/earring.jpg";
 import ring from "../Images/ProductsImages/ring.jpg";
@@ -31,8 +30,8 @@ export default function Home() {
 
       {/* ---home_contents--- */}
       <div className="df col">
-        <span className="heads">Exquisite and Timeless</span>
-        <span className="contents">Life isn't perfect but your jewellery can be</span>
+        <span className="heads">PURE | HONEST | ELOQUENT</span>
+        <span className="contents">Jewellery as beautiful as You</span>
         <img src={linedesign} alt="" id="line" />
         <span className="heads">Shop By Category</span>
         <span className="contents">Browse through your favorite categories. We've got them all!</span>
@@ -40,85 +39,85 @@ export default function Home() {
       </div>
 
       {/* ---PRODUCTS_CARDS--- */}
-      <div className="df row card-m">
-        <div className="card">
+      <div className="df row card-m" id="products">
+        <div className="brand-card card">
           <img src={earring} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Earrings</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={ring} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Finger Rings</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={pendant} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Pendants</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={nosering} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Nose Pins</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={mangalsutra} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Mangalsutras</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={chain} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Chains</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={coin} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Gold Coins</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={bangle} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Bangles</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={necklace} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Neckwears</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={payal} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Payals</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={toering} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Toe Rings</span>
             <p className="card-text">Explore</p>
           </div>
         </div>
-        <div className="card">
+        <div className="brand-card card">
           <img src={scoin} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Silver Coins</span>
@@ -139,37 +138,37 @@ export default function Home() {
 
       {/* ---BRAND_CARDS--- */}
       <div className="df row card-m">
-        <div className="card nohover">
+        <div className="brand-card card nohover">
           <img src={riyadiamond} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Riya Diamonds</span>
           </div>
         </div>
-        <div className="card nohover">
+        <div className="brand-card card nohover">
           <img src={yug} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">YUG</span>
           </div>
         </div>
-        <div className="card nohover">
+        <div className="brand-card card nohover">
           <img src={emerald} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">EMERALD</span>
           </div>
         </div>
-        <div className="card nohover">
+        <div className="brand-card card nohover">
           <img src={tgc} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">TGC</span>
           </div>
         </div>
-        <div className="card nohover">
+        <div className="brand-card card nohover">
           <img src={rohtak} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Rohtak Chains</span>
           </div>
         </div>
-        <div className="card nohover">
+        <div className="brand-card card nohover">
           <img src={amanpayal} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Aman Payals</span>
@@ -198,9 +197,9 @@ export default function Home() {
 
       {/* ---banners--- */}
       <div className="df col">
-        <img src={banner1} className="banner" alt="" />
+        <img src={banner1} className="banner" alt="BANNER1" />
         <img src={linedesign} alt="" id="line" />
-        <img src={banner2} className="banner" alt="" />
+        <img src={banner2} className="banner" alt="BANNER2" />
         <img src={linedesign} alt="" id="line" />
       </div>
       

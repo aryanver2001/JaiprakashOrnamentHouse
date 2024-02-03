@@ -1,0 +1,79 @@
+@media screen and (max-width: 400px) {
+
+    .nav-link{
+        font-size: 13px !important;
+    }
+    
+    .logo {
+        width: 50% !important;
+    }
+
+    .logo img {
+        height: 60px !important;
+        width: 150px !important;
+    }
+
+    .hero-head {
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+
+    .card{
+        width: 100px !important;
+        height: 120px !important;
+    }
+
+    .card img {
+        height: 80px !important;
+        width: 75px !important;
+    }
+
+    .card-title {
+        font-size: 11px !important;
+    }
+
+    .card-text{
+        font-size: 8px !important;
+    }
+
+    .contents{
+        font-size: 13px !important;
+    }
+
+    .heads{
+        font-size: 18px !important;
+    }
+
+    .footer-about-cont{
+        font-size: 10px;
+    }
+
+    .fhead{
+        font-size: 18px !important;
+    }
+
+    .fa{
+        font-size: 15px !important;
+    }
+
+    .row2 span {
+        font-size: 6px !important;
+    }
+
+    .p-mid p{
+        font-size: 10px !important;
+    }
+
+    .form {
+        width: 250px !important;
+    }
+
+    .map-head, .form-head{
+        font-size: 16px !important;
+    }
+
+    .map iframe{
+        height: 200px !important;
+        width: 200px !important;
+    }
+}

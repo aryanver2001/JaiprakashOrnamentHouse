@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+
+    .row1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px !important;
+    }
+
+    .colw{
+        width: 100% !important;
+    }
+
+    .fhead{
+        margin-bottom: 20px !important;
+    }
+
+    .contents, .card-m{
+        margin: auto !important;
+    }
+
+    .bis-card img {
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .bis-card{
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+     
+    .fd{
+        flex-direction: column !important;
+     }
+
+     .form{
+        margin: auto;
+     }
+
+}

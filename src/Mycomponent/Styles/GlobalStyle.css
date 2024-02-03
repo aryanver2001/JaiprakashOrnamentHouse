@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+.navbar {
+    background-color: #0a0a0a;
+    position: sticky !important;
+    top: 0;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 70px;
+    width: 250px;
+}
+
+.nav-link {
+    margin: 0px 20px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(231, 204, 171);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.nav-link:focus {
+    color: rgb(236, 167, 82) !important;
+}
+
+.hero-cont {
+    background-color: black;
+}
+
+.hero-head {
+    padding: 3px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+}
+
+.df {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.carousel-item img {
+    padding: 2px;
+    height: 600px;
+}
+
+.heads {
+    font-size: 35px;
+    margin-top: 10px;
+    padding: 5px;
+    color: #f7be04e9;
+    font-family: 'Playfair Display', serif;
+}
+
+.contents {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin: 0 250px;
+}
+
+.product-contents{
+    color: bisque;
+}
+
+#line {
+    width: 80%;
+}
+
+.card-m {
+    margin: 0 120px 10px 120px;
+}
+
+.product-bg{
+    background: rgb(24 26 52);
+}
+
+.product-card img{
+    padding: 5px;
+    height: 215px;
+}
+
+.card{
+    margin: 8px;
+    width: 170px;
+    height: 220px;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.nohover:hover {
+    transform: scale(1, 1);
+}
+
+.brand-card img {
+    padding: 3px;
+    height: 150px;
+    width: 145px;
+}
+
+.card-body {
+    padding: 0;
+
+}
+
+.card-title {
+    font-size: 20px;
+    color: #f7be04e9;
+}
+
+.card-text {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.bis-card {
+    margin: auto;
+    width: 80%;
+}
+
+.bis-card img {
+    height: 150px;
+    width: 150px;
+    padding: 0;
+}
+
+.bis-logo {
+    width: 20%;
+    text-align: center;
+}
+
+.bis-cont {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.bis-cont .contents {
+    margin: 0;
+    text-align: left;
+}
+
+.banner {
+    margin: 10px 0px;
+    height: 450px;
+    width: 80%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #f7be04e9;
+}
+
+.row1 {
+    display: flex;
+    margin: 50px 50px 0 50px;
+}
+
+.fhead {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.colw {
+    margin: 25px;
+    width: 25%;
+}
+
+.about img {
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+.cont-col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resp-d {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conts {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #f7be04e9;
+}
+
+.conts:hover {
+    color: white;
+}
+
+.fa {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.fa:hover {
+    color: #f7be04e9;
+}
+
+.email {
+    margin-left: 10px;
+}
+
+.follow {
+    color: #f7be04e9;
+    margin-right: 20px;
+}
+
+.follow:hover {
+    color: white;
+}
+
+.row2 {
+    background: #f7be04e9;
+    color: black;
+}
+
+.row2 span {
+
+    margin: 10px;
+}
+
+.bg-about{
+    background: rgb(216 199 225 / 66%);
+    padding-bottom: 30px;
+}
+
+.p-mid{
+    color: saddlebrown;
+    font-family: 'Playfair Display', serif;
+    margin: 0 100px;
+    padding-bottom: 30px;
+}
+
+.card-about {
+    margin: 8px;
+    width: 300px;
+    height: 300px
+}
+
+.contact-icon{
+    color: black;
+    margin-right: 15px ;
+}
+
+.bg-contact{
+    background: rgba(201, 201, 80, 0.415);
+}
+
+.fd{
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.form{
+    margin-right: 200px;
+    display: flex;
+    width: 400px;
+    background: black;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-head{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 65%;
+}
+
+.form-control{
+    margin-bottom: 30px;
+}
+
+.btn{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background: rgba(61, 61, 227, 0.95);
+    width: 100%;
+}
+
+.btn:hover{
+    color: black;
+    background: green;
+}
+
+.map-head{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
