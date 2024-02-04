@@ -17,14 +17,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <BrowserRouter basename="/JaiprakashOrnamentHouse">
       <Routes>
         <Route path="/JaiprakashOrnamentHouse" Component={Home} />
         <Route path="/about" Component={About} />
         <Route path="/products" Component={Products} />
         <Route path="/contact" Component={Contact} />
       </Routes>
-      </BrowserRouter> 
       <Footertail />
     </div>
   );
