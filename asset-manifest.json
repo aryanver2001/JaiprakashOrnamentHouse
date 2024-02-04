@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JaiprakashOrnamentHouse/static/css/main.b7867adb.css",
-    "main.js": "/JaiprakashOrnamentHouse/static/js/main.e1d63166.js",
+    "main.js": "/JaiprakashOrnamentHouse/static/js/main.619f7714.js",
     "static/js/787.d4aba7ab.chunk.js": "/JaiprakashOrnamentHouse/static/js/787.d4aba7ab.chunk.js",
     "static/media/crousel3.jpg": "/JaiprakashOrnamentHouse/static/media/crousel3.829f2e68c39ba65ed526.jpg",
     "static/media/tgc.jpg": "/JaiprakashOrnamentHouse/static/media/tgc.1e70f5e4738e8eedf4c6.jpg",
@@ -38,11 +38,11 @@
     "static/media/Ear3.jpeg": "/JaiprakashOrnamentHouse/static/media/Ear3.6be677ae3c6bae2f0ffc.jpeg",
     "index.html": "/JaiprakashOrnamentHouse/index.html",
     "main.b7867adb.css.map": "/JaiprakashOrnamentHouse/static/css/main.b7867adb.css.map",
-    "main.e1d63166.js.map": "/JaiprakashOrnamentHouse/static/js/main.e1d63166.js.map",
+    "main.619f7714.js.map": "/JaiprakashOrnamentHouse/static/js/main.619f7714.js.map",
     "787.d4aba7ab.chunk.js.map": "/JaiprakashOrnamentHouse/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7867adb.css",
-    "static/js/main.e1d63166.js"
+    "static/js/main.619f7714.js"
   ]
 }
