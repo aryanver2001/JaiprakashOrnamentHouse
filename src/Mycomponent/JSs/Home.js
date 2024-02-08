@@ -20,8 +20,8 @@ import tgc from "../Images/BrandImages/tgc.jpg";
 import rohtak from "../Images/BrandImages/rohtak.jpg";
 import amanpayal from "../Images/BrandImages/amanpayal.png";
 import bis from "../Images/BrandImages/bis.png";
-import banner1 from"../Images/Banners/banner1.jpg";
-import banner2 from"../Images/Banners/banner2.jpg";
+import banner1 from "../Images/Banners/banner1.jpg";
+import banner2 from "../Images/Banners/banner2.jpg";
 
 export default function Home() {
   return (
@@ -44,84 +44,84 @@ export default function Home() {
           <img src={earring} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Earrings</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={ring} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Finger Rings</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={pendant} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Pendants</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={nosering} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Nose Pins</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={mangalsutra} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Mangalsutras</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={chain} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Chains</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={coin} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Gold Coins</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={bangle} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Bangles</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={necklace} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Neckwears</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={payal} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Payals</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={toering} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Toe Rings</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
         <div className="brand-card card">
           <img src={scoin} className="card-img-top" alt="..." />
           <div className="card-body df col">
             <span className="card-title">Silver Coins</span>
-            <p className="card-text">Explore</p>
+
           </div>
         </div>
 
@@ -175,7 +175,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className="df col">
         <span className="contents">Partnered with diverse brands to deliver premier, curated jewelry collections for you.</span>
         <img src={linedesign} alt="" id="line" />
@@ -202,7 +202,7 @@ export default function Home() {
         <img src={banner2} className="banner" alt="BANNER2" />
         <img src={linedesign} alt="" id="line" />
       </div>
-      
+
     </div>
   );
 }

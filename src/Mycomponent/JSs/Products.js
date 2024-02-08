@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "./Hero";
 import linedesign from "../Images/line-design.png"
 import Ear1 from "../Images/Earrings/Ear1.jpeg";
-import Ear2 from "../Images/Earrings/Ear2.jpeg";
+import Ear2 from "../Images/Earrings/Ear2.png";
 import Ear3 from "../Images/Earrings/Ear3.jpeg";
 import Ear4 from "../Images/Earrings/Ear4.jpeg";
 import ring1 from "../Images/Rings/ring1.png"
-import ring2 from "../Images/Rings/ring2.jpeg"
+import ring2 from "../Images/Rings/ring2.png"
 import ring3 from "../Images/Rings/ring3.jpeg"
 import ring4 from "../Images/Rings/ring4.jpeg"
 import pendent1 from "../Images/Pendents/pendent1.png";
@@ -20,10 +20,10 @@ import bangle4 from "../Images/Bangles/bangle4.jpeg"
 import necklace1 from "../Images/Necklace/necklace1.png"
 import necklace2 from "../Images/Necklace/necklace2.png"
 import necklace3 from "../Images/Necklace/necklace3.jpeg"
-import necklace4 from "../Images/Necklace/necklace4.jpeg"
-import payal1 from "../Images/Payals/payal1.jpeg"
+import necklace4 from "../Images/Necklace/necklace4.png"
+import payal1 from "../Images/Payals/payal1.png"
 import payal2 from "../Images/Payals/payal2.png"
-import payal3 from "../Images/Payals/payal3.jpg"
+import payal3 from "../Images/Payals/payal3.png"
 import payal4 from "../Images/Payals/payal4.jpg"
 
 
