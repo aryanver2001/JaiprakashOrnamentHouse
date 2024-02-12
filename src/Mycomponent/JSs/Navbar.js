@@ -47,12 +47,12 @@ export default function Navbar() {
               </ul>
               {/* LOGIN/SIGNUP */}
               <div className="login-section">
-                <Link className="login-btn" to="/">
+                <span className="login-btn">
                   Log in
-                </Link>
-                <Link className="signup-btn" to="/">
+                </span>
+                <span className="signup-btn">
                   Sign up
-                </Link>
+                </span>
               </div>
             </div>
           </div>
