@@ -45,6 +45,15 @@ export default function Navbar() {
                   </Link>
                 </li>
               </ul>
+              {/* LOGIN/SIGNUP */}
+              <div className="login-section">
+                <Link className="login-btn" to="/">
+                  Log in
+                </Link>
+                <Link className="signup-btn" to="/">
+                  Sign up
+                </Link>
+              </div>
             </div>
           </div>
         </div>
