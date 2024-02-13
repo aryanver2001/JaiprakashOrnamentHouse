@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <div className="logo">
+          <div className="logo" data-aos="zoom-in">
             <img src={shoplogo} alt="LOGO" />
           </div>
           <button

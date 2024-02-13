@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div>
       <header className="df col hero-cont">
-        <span className="hero-head">JAIPRAKASH ORNAMENT HOUSE</span>
+        <span className="hero-head" data-aos="fade-left" data-aos-delay="0" data-aos-duration="100" data-aos-once="false">JAIPRAKASH ORNAMENT HOUSE</span>
       </header>
 
       {/* ---carousel--- */}
