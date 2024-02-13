@@ -1,9 +1,9 @@
 @media screen and (max-width:1035px) {
 
-    .login-section{
+    /* .login-section{
         flex-direction: column;
         align-items: flex-start;
-    }
+    } */
 
     .about img {
         width: 195px !important;
