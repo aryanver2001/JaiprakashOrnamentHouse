@@ -46,14 +46,14 @@ export default function Navbar() {
                 </li>
               </ul>
               {/* LOGIN/SIGNUP */}
-              <div className="login-section">
+              {/* <div className="login-section">
                 <span className="login-btn">
                   Log in
                 </span>
                 <span className="signup-btn">
                   Sign up
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

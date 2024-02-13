@@ -39,7 +39,7 @@
     color: rgb(236, 167, 82) !important;
 }
 
-.login-section{
+/* .login-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@
     color: #0a0a0a;
     border-radius: 20px;
     cursor: pointer;
-}
+} */
 
 .hero-cont {
     background-color: black;
