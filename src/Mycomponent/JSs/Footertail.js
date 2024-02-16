@@ -43,6 +43,7 @@ export default function footer() {
             </div>
             <div className="df row2">
                 <span>Copyright &#169; 2023 JaiPrakash Ornament House. All Rights Reserved</span>
+                <a href="#top">Back to Top</a>
             </div>
 
         </div>

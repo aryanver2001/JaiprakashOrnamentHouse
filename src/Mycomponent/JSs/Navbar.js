@@ -5,7 +5,7 @@ import shoplogo from "../Images/Shop-logo.png";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg" id="top">
         <div className="container-fluid">
           <div className="logo" data-aos="zoom-in">
             <img src={shoplogo} alt="LOGO" />
