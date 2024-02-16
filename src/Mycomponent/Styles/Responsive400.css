@@ -57,7 +57,11 @@
     }
 
     .row2 span {
-        font-size: 6px !important;
+        font-size: 3px !important;
+    }
+
+    .row2 a {
+        font-size: 3px !important;
     }
 
     .p-mid p{
