@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import shoplogo from "../Images/Shop-logo.png";
+import usericon from "../Images/user.png"
 
 export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg" id="top">
         <div className="container-fluid">
-          <div className="logo" data-aos="zoom-in">
+          <div className="shop-logo" data-aos="zoom-in">
             <img src={shoplogo} alt="LOGO" />
           </div>
           <button
@@ -21,7 +22,7 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="logo">
+          <div className="nav-contents">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
@@ -47,6 +48,18 @@ export default function Navbar() {
               </ul>
             </div>
           </div>
+          <div className="nav-contents">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
+                    <img src={usericon} alt="" style={{ height: "30px", width: "30px" }} />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </nav>
     </div>

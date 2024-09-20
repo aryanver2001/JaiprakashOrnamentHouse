@@ -12,17 +12,25 @@
     border-bottom: 1px solid white;
 }
 
-.logo {
+.shop-logo {
     display: flex;
-    width: 50%;
+    width: 40%;
     align-items: center;
     justify-content: center;
 }
 
-.logo img {
+.nav-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-logo img {
     height: 70px;
     width: 250px;
 }
+
+
 
 .nav-link {
     margin: 0px 20px;
