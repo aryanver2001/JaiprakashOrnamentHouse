@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
+import Footertail from "./Footertail";
 import linedesign from "../Images/line-design.png"
 
 export default function About() {
@@ -31,6 +32,7 @@ export default function About() {
           <span className="contents">Jewellery as beautiful as You</span>
         </div>
       </div>
+      <Footertail />
     </>
   );
 }

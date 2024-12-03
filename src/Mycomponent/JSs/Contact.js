@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from "./Hero";
+import Footertail from "./Footertail";
 import linedesign from "../Images/line-design.png";
 
 export default function Contact() {
@@ -38,6 +39,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      <Footertail />
     </div>
   )
 }

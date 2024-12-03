@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
+import Footertail from "./Footertail";
 import linedesign from "../Images/line-design.png";
 import earring from "../Images/ProductsImages/earring.jpg";
 import ring from "../Images/ProductsImages/ring.jpg";
@@ -200,6 +201,8 @@ export default function Home() {
         <img src={banner2} className="banner" alt="BANNER2" />
         <img src={linedesign} alt="" id="line" />
       </div>
+
+      <Footertail />
 
     </div>
   );

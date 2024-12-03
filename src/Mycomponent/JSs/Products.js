@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
+import Footertail from "./Footertail";
 import linedesign from "../Images/line-design.png"
 import Ear1 from "../Images/Earrings/Ear1.jpeg";
 import Ear2 from "../Images/Earrings/Ear2.png";
@@ -205,6 +206,7 @@ export default function Products() {
         <br />
       </div>
 
+      <Footertail />
     </div>
   );
 }
