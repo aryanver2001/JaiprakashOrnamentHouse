@@ -159,6 +159,7 @@
     color: #f7be04e9;
 }
 
+
 .card-text {
     font-size: 12px;
     margin-bottom: 3px;
@@ -252,7 +253,7 @@
     color: white;
     text-decoration: none;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
 }
 
 .fa:hover {
