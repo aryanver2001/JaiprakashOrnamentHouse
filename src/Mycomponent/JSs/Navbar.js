@@ -20,7 +20,8 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            {/* className="navbar-toggler-icon" */}
+            <span className="fa fa-bars" style={{color: "#FFD43B",}}></span>
           </button>
           <div className="nav-contents">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,7 +49,7 @@ export default function Navbar() {
               </ul>
             </div>
           </div>
-          <div className="nav-contents">
+          {/* <div className="nav-contents">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
@@ -58,7 +59,7 @@ export default function Navbar() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </nav>

@@ -19,6 +19,12 @@
     justify-content: center;
 }
 
+.fa{
+    margin: 0px !important;
+}
+
+
+
 .nav-contents{
     display: flex;
     align-items: center;
