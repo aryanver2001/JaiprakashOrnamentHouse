@@ -32,7 +32,7 @@ export default function Home() {
       <Hero />
 
       {/* ---home_contents--- */}
-      <div className="df col" data-aos="zoom-in">
+      <div className="df col">
         <span className="heads">PURE | HONEST | ELOQUENT</span>
         <span className="contents">Jewellery as beautiful as You</span>
         <img src={linedesign} alt="" id="line" />
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
 
       {/* ---PRODUCTS_CARDS--- */}
-      <div className="df row card-m" id="products" data-aos="fade-in">
+      <div className="df row card-m" id="products">
         <div className="brand-card card">
           <img src={earring} className="card-img-top" alt="..." />
           <div className="card-body df col">
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="df col" data-aos="zoom-in">
+      <div className="df col">
         <span className="contents">Whatever the occasion, we've got a beautiful piece of jewellery for you.</span>
         <img src={linedesign} alt="" id="line" />
         <span className="heads">Collaboration Pratners</span>
@@ -138,7 +138,7 @@ export default function Home() {
       </div>
 
       {/* ---BRAND_CARDS--- */}
-      <div className="df row card-m" data-aos="fade-in">
+      <div className="df row card-m">
         <div className="brand-card card nohover">
           <img src={riyadiamond} className="card-img-top" alt="..." />
           <div className="card-body df col">
@@ -177,13 +177,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="df col" data-aos="zoom-in">
+      <div className="df col">
         <span className="contents">Partnered with diverse brands to deliver premier, curated jewelry collections for you.</span>
         <img src={linedesign} alt="" id="line" />
       </div>
 
       {/* ---BIS_Section--- */}
-      <div className="df col" data-aos="zoom-in">
+      <div className="df col">
         <div className="df row bis-card nohover bis-resp">
           <div className="bis-logo">
             <img src={bis} alt="..." />
@@ -197,7 +197,7 @@ export default function Home() {
       </div>
 
       {/* ---banners--- */}
-      <div className="df col" data-aos="fade-out">
+      <div className="df col">
         <img src={banner1} className="banner" alt="BANNER1" />
         <img src={linedesign} alt="" id="line" />
         <img src={banner2} className="banner" alt="BANNER2" />

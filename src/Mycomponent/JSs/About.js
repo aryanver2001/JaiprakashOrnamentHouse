@@ -13,7 +13,7 @@ export default function About() {
           <span className="contents">Who We Are?</span>
           <img src={linedesign} alt="" id="line" />
         </div>
-        <div className="df col p-mid" data-aos="fade-in">
+        <div className="df col p-mid">
           <p>Welcome to the gleaming world of Jaiprakash Ornament House, where timeless elegance meets the allure of pure gold. As purveyors of exquisite craftsmanship and unparalleled luxury, we invite you to embark on a journey through our virtual showroom, where each piece tells a story of opulence, tradition, and refined taste.
           </p>
           <p>Nestled in the heart of Ghazipur since 1965, Jaiprakash Ornament House stands as a beacon of sophistication in the realm of fine jewellery. Our legacy spans generations, rooted in a commitment to delivering not just gold and diamonds, but an experience that transcends the ordinary. With a rich heritage that echoes through every meticulously crafted piece, we take pride in being custodians of the artistry that transforms gold into wearable poetry.

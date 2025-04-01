@@ -39,7 +39,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-in">
+      <div className="df col">
         <span className="heads">EARRINGS</span>
         <div className="df row card-m">
           <div className="card nohover product-card">
@@ -66,7 +66,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-in">
+      <div className="df col">
         <span className="heads">FINGER RINGS</span>
         <div className="df row card-m">
           <div className="card nohover product-card">
@@ -93,7 +93,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-in">
+      <div className="df col">
         <span className="heads">PENDENTS</span>
         <div className="df row card-m">
           <div className="card nohover product-card">
@@ -120,7 +120,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-in">
+      <div className="df col">
         <span className="heads">BANGLES</span>
         <div className="df row card-m">
           <div className="card nohover product-card">
@@ -147,7 +147,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-in">
+      <div className="df col">
         <span className="heads">NECKLACE</span>
         <div className="df row card-m">
           <div className="card nohover product-card">
@@ -174,7 +174,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-in">
+      <div className="df col">
         <span className="heads">SILVER PAYALS</span>
         <div className="df row card-m">
           <div className="card nohover product-card">
@@ -201,7 +201,7 @@ export default function Products() {
         <img src={linedesign} alt="" id="line" />
       </div>
 
-      <div className="df col" data-aos="fade-out">
+      <div className="df col">
         <span className="product-contents contents">For more Products and Services visit us or contact us </span>
         <br />
       </div>

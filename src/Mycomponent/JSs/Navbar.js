@@ -8,7 +8,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg" id="top">
         <div className="container-fluid">
-          <div className="shop-logo" data-aos="zoom-in">
+          <div className="shop-logo">
             <img src={shoplogo} alt="LOGO" />
           </div>
           <button
@@ -20,9 +20,10 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            {/* className="navbar-toggler-icon" */}
+            className="navbar-toggler-icon"
             <span className="fa fa-bars" style={{color: "#FFD43B",}}></span>
           </button>
+
           <div className="nav-contents">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
