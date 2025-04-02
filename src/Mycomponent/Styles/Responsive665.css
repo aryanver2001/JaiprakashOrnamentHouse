@@ -3,6 +3,10 @@
         width: 70%;
     }
 
+    .menu-web li {
+        font-size: 11px;
+    }
+    
     .hero-head {
         padding: 20px;
         font-size: 23px;

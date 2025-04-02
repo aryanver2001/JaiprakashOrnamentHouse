@@ -5,13 +5,20 @@
         align-items: flex-start;
     } */
 
+    .logoimg {
+        height: 50px;
+        width: 150px;
+    }
+
+    .menu-web li{
+        margin: 0;
+    }
+
     .about img {
         width: 195px !important;
     }
 
-    .phn-hide{
+    .phn-hide {
         display: none !important;
     }
 }
-
-
